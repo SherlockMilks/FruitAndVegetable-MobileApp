@@ -1,0 +1,11 @@
+<resources>
+    <string name="felhaszn_l_n_v">Felhasználónév</string>
+    <string name="jelsz">Jelszó</string>
+    <string name="bejelentkez_s">Bejelentkezés</string>
+    <string name="regisztr_cio">Regisztráció</string>
+    <string name="app_name">VegetableAndFruitShop</string>
+    <string name="email">Email</string>
+    <string name="jelsz_jra">Jelszó újra</string>
+    <string name="telefonsz_m">Telefonszám</string>
+    <string name="lakc_m">Lakcím</string>
+</resources>
