@@ -1,6 +1,6 @@
 <resources>
     <string name="felhaszn_l_n_v">Felhasználónév</string>
-    <string name="jelsz">Jelszó</string>
+    <string name="jelsz">Jelszó (min 6 karakter)</string>
     <string name="bejelentkez_s">Bejelentkezés</string>
     <string name="regisztr_cio">Regisztráció</string>
     <string name="app_name">VegetableAndFruitShop</string>
@@ -8,4 +8,51 @@
     <string name="jelsz_jra">Jelszó újra</string>
     <string name="telefonsz_m">Telefonszám</string>
     <string name="lakc_m">Lakcím</string>
+    <string name="loginpage">Bejelentkezés oldalra!</string>
+    <string name="registerpage">Regisztrációs oldalra!</string>
+    <string name="item_placeholder">placeholder</string>
+    <string name="kos_rba">Kosárba</string>
+    <string name="keres_s">Keresés</string>
+    <string name="kos_r">Kosár</string>
+    <string name="kijelentkez_s">Kijelentkezés</string>
+
+
+    <!--Példa adatok-->
+    <string-array name="name">
+        <item>Paradicsom</item>
+        <item>Répa</item>
+        <item>Alma</item>
+        <item>Körte</item>
+        <item>Narancs</item>
+        <item>Görögdinnye</item>
+    </string-array>
+
+    <string-array name="info">
+        <item>Ez most zöldség vagy gyümölcs?</item>
+        <item>Nagyon jól tudsz majd fütyülni!</item>
+        <item>Az orvosokat távol tartja.</item>
+        <item>Ne tedd a lámpába!</item>
+        <item>A legszebb fáinkról!</item>
+        <item>Szép, nagy, gömbölyű!</item>
+    </string-array>
+
+
+    <string-array name="price">
+        <item>999 Ft/Kg</item>
+        <item>349 Ft/Kg</item>
+        <item>549 Ft/Kg</item>
+        <item>799 Ft/Kg</item>
+        <item>649 Ft/Kg</item>
+        <item>399 Ft/Kg</item>
+    </string-array>
+
+    <array name="img">
+        <item>@drawable/tomatosss</item>
+        <item>@drawable/carrot</item>
+        <item>@drawable/apple</item>
+        <item>@drawable/pear</item>
+        <item>@drawable/orange</item>
+        <item>@drawable/watermelon</item>
+    </array>
+
 </resources>

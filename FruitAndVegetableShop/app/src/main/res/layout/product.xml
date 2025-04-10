@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img"
+            android:padding="8dp"
+            android:text="@string/item_placeholder"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:padding="8dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/item_placeholder" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/item_placeholder"/>
+
+        <Button
+            android:id="@+id/add_to_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price"
+            android:text="@string/kos_rba"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
