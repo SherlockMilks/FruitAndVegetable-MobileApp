@@ -47,7 +47,7 @@
     </string-array>
 
     <array name="img">
-        <item>@drawable/tomatosss</item>
+        <item>@drawable/pictomato</item>
         <item>@drawable/carrot</item>
         <item>@drawable/apple</item>
         <item>@drawable/pear</item>
