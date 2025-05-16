@@ -69,6 +69,12 @@
 
     <array name="img">
         <item>@drawable/defaultimg</item>
+        <item>@drawable/apple</item>
+        <item>@drawable/carrot</item>
+        <item>@drawable/dinnye</item>
+        <item>@drawable/orange</item>
+        <item>@drawable/pari</item>
+        <item>@drawable/pear</item>
     </array>
 
 </resources>

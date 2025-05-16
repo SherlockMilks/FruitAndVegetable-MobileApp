@@ -75,7 +75,7 @@ public class AddProductActivity extends AppCompatActivity {
             return;
         }
 
-        Product product=new Product(2131230872,Integer.valueOf(price),info,name);
+        Product product=new Product(2131230871,Integer.valueOf(price),info,name);
         mFirestore.collection("products").add(product);
 
         noti.send(name+" létrehozva");
