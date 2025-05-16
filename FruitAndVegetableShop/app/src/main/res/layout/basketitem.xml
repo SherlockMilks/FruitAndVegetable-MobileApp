@@ -45,51 +45,47 @@
             android:text="@string/item_placeholder"/>
 
         <LinearLayout
+            android:id="@+id/mennyiseg"
+            android:layout_below="@id/price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/price"
             android:layout_centerHorizontal="true"
             android:orientation="horizontal"
-            android:layout_marginBottom="12dp"
             android:gravity="center_horizontal"
-            android:id="@+id/wrapper">
-
-            <EditText
-                android:id="@+id/amount"
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="@string/_0"
-                android:padding="12dp"
-                android:layout_marginEnd="8dp"/>
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp">
 
             <Button
-                android:id="@+id/add_to_cart"
+                android:id="@+id/decrease_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/kos_rba" />
+                android:text="@string/minus"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_placeholder"
+                android:padding="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp" />
+
+            <Button
+                android:id="@+id/increase_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plus"
+                android:padding="8dp" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/modify"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:text="Módosítás"
-            android:layout_below="@id/wrapper"
-            android:layout_centerHorizontal="true"
-            android:orientation="horizontal"
-            android:layout_marginBottom="7dp"/>
 
         <Button
-            android:id="@+id/delete"
-            android:layout_width="300dp"
+            android:id="@+id/remove"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/mennyiseg"
             android:text="@string/t_rl_s"
-            android:layout_below="@id/modify"
-            android:layout_centerHorizontal="true"
-            android:orientation="horizontal"
-            android:layout_marginBottom="7dp"/>
-
-
+            android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

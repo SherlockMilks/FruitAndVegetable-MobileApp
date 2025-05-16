@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".Activity.RegistrationActivity">
+    tools:context=".Activity.AddProductActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,60 +13,36 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/registerText"
+            android:id="@+id/productText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/regisztr_cio"
+            android:text="@string/producttitle"
             android:textAlignment="center"
             android:textSize="30sp"
             android:layout_marginBottom="24dp" />
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="@string/felhaszn_l_n_v"
+            android:hint="@string/term_k_neve"
             android:inputType="text"
             android:layout_marginBottom="16dp" />
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/price"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress"
+            android:hint="@string/ar"
+            android:inputType="number"
             android:layout_marginBottom="16dp" />
 
         <EditText
-            android:id="@+id/phoneNumber"
+            android:id="@+id/info"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="@string/telefonsz_m"
-            android:inputType="phone"
-            android:layout_marginBottom="16dp" />
-
-        <EditText
-            android:id="@+id/postalAddress"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:hint="@string/lakc_m"
-            android:inputType="textPostalAddress|textMultiLine"
-            android:layout_marginBottom="16dp" />
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:hint="@string/jelsz"
-            android:inputType="textPassword"
-            android:layout_marginBottom="16dp" />
-
-        <EditText
-            android:id="@+id/passwordagain"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:hint="@string/jelsz_jra"
-            android:inputType="textPassword"
+            android:hint="@string/info"
+            android:inputType="textMultiLine"
             android:layout_marginBottom="16dp" />
 
         <LinearLayout
@@ -77,26 +53,25 @@
             android:layout_marginTop="8dp">
 
             <Button
-                android:id="@+id/login"
+                android:id="@+id/add"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="52dp"
-                android:text="@string/regisztr_cio"
-                android:onClick="register"
+                android:text="@string/hozz_ad_s"
+                android:onClick="add"
                 android:layout_marginEnd="8dp" />
 
             <Button
-                android:id="@+id/register"
+                android:id="@+id/cancel"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="52dp"
-                android:text="@string/loginpage"
-                android:onClick="login"
+                android:text="@string/m_gse"
+                android:onClick="cancel"
                 android:layout_marginStart="8dp" />
 
 
         </LinearLayout>
-
     </LinearLayout>
 
 </android.widget.ScrollView>

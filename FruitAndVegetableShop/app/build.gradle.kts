@@ -39,14 +39,18 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.auth)
+    implementation(libs.play.services.location)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation(libs.firebase.bom)
-    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.recyclerview)
     implementation(libs.recyclerview.selection)
     implementation(libs.glide.v4160)
+    implementation(libs.gson)
 
 
 

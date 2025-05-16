@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414959387937",
+    "project_id": "fruitandvegetableshop-b085b",
+    "storage_bucket": "fruitandvegetableshop-b085b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414959387937:android:bce0c31dd30af4b547aa60",
+        "android_client_info": {
+          "package_name": "com.example.fruitandvegetableshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoE585WEg2WqCoE8MkrAlXSvo3IU5zzHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

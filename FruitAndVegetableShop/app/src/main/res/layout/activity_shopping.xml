@@ -3,12 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShoppingActivity"
+    tools:context=".Activity.ShoppingActivity"
     android:fitsSystemWindows="true">
+
+    <EditText
+        android:id="@+id/maxPrice"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="12dp"
+        android:inputType="number"
+        android:hint="@string/max_ar" />
+
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/maxPrice"
+        android:layout_alignTop="@id/maxPrice"
+        android:onClick="priceCheck"
+        android:layout_marginEnd="10dp"
+        android:text="@string/szures" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/filterButton"
+        android:layout_alignTop="@id/filterButton"
+        android:onClick="addProduct"
+        android:layout_marginEnd="10dp"
+        android:text="@string/uj"
+        android:visibility="gone" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:scrollbars="vertical"
+        android:layout_below="@id/maxPrice"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"/>
 </RelativeLayout>

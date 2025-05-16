@@ -15,6 +15,27 @@
     <string name="keres_s">Keresés</string>
     <string name="kos_r">Kosár</string>
     <string name="kijelentkez_s">Kijelentkezés</string>
+    <string name="v_s_rl_s">Vásárlás</string>
+    <string name="t_rl_s">Törlés</string>
+    <string name="emptybasket">A kosár üres!</string>
+    <string name="_0ft">0Ft</string>
+    <string name="rendel_s">Rendelés</string>
+    <string name="plus">+</string>
+    <string name="minus">−</string>
+    <string name="_0">0</string>
+    <string name="max_ar">Max ár</string>
+    <string name="szures">Szűrés</string>
+    <string name="hozz_ad_s">Hozzáadás</string>
+    <string name="producttitle">Termék felvétel</string>
+    <string name="term_k_neve">Termék neve</string>
+    <string name="ar">Ár</string>
+    <string name="info">Termék információ</string>
+    <string name="m_gse">Mégse</string>
+    <string name="uj">Új termék</string>
+    <string name="term_k_m_dos_t_s">Termék módosítás</string>
+    <string name="m_dos_t_s">Módosítás</string>
+    <string name="nincs">\n\nJelenleg nincs rendelésed!</string>
+    <string name="rendel_sek">Rendelések</string>
 
 
     <!--Példa adatok-->
@@ -47,12 +68,7 @@
     </string-array>
 
     <array name="img">
-        <item>@drawable/pictomato</item>
-        <item>@drawable/carrot</item>
-        <item>@drawable/apple</item>
-        <item>@drawable/pear</item>
-        <item>@drawable/orange</item>
-        <item>@drawable/watermelon</item>
+        <item>@drawable/defaultimg</item>
     </array>
 
 </resources>

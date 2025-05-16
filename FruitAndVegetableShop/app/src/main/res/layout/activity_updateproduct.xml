@@ -9,14 +9,14 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".Activity.RegistrationActivity">
+        tools:context=".Activity.ModifyProductActivity">
 
         <TextView
-            android:id="@+id/registerText"
+            android:id="@+id/modifyText"
             android:layout_width="398dp"
             android:layout_height="55dp"
             android:layout_marginTop="4dp"
-            android:text="@string/regisztr_cio"
+            android:text="@string/term_k_m_dos_t_s"
             android:textAlignment="center"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -27,105 +27,66 @@
             app:layout_constraintVertical_bias="0.02" />
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/name"
             android:layout_width="380dp"
             android:layout_height="60dp"
-            android:hint="@string/felhaszn_l_n_v"
+            android:hint="@string/term_k_neve"
             android:inputType="text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/registerText"
+            app:layout_constraintTop_toBottomOf="@+id/modifyText"
             app:layout_constraintVertical_bias="0.05" />
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/price"
             android:layout_width="380dp"
             android:layout_height="60dp"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress"
+            android:hint="@string/ar"
+            android:inputType="number"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username"
+            app:layout_constraintTop_toBottomOf="@+id/name"
             app:layout_constraintVertical_bias="0.05" />
 
         <EditText
-            android:id="@+id/phoneNumber"
+            android:id="@+id/info"
             android:layout_width="380dp"
             android:layout_height="60dp"
-            android:hint="@string/telefonsz_m"
-            android:inputType="phone"
+            android:hint="@string/info"
+            android:inputType="textMultiLine"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/email"
+            app:layout_constraintTop_toBottomOf="@+id/price"
             app:layout_constraintVertical_bias="0.06" />
 
-        <EditText
-            android:id="@+id/postalAddress"
-            android:layout_width="380dp"
-            android:layout_height="60dp"
-            android:hint="@string/lakc_m"
-            android:inputType="textPostalAddress|textMultiLine"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
-            app:layout_constraintVertical_bias="0.05" />
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="380dp"
-            android:layout_height="60dp"
-            android:hint="@string/jelsz"
-            android:inputType="textPassword"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/postalAddress"
-            app:layout_constraintVertical_bias="0.08" />
-
-        <EditText
-            android:id="@+id/passwordagain"
-            android:layout_width="380dp"
-            android:layout_height="60dp"
-            android:hint="@string/jelsz_jra"
-            android:inputType="textPassword"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/password"
-            app:layout_constraintVertical_bias="0.1" />
-
         <Button
-            android:id="@+id/register"
+            android:id="@+id/update"
             android:layout_width="273dp"
             android:layout_height="52dp"
-            android:onClick="register"
-            android:text="@string/regisztr_cio"
+            android:onClick="update"
+            android:text="@string/m_dos_t_s"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/passwordagain"
+            app:layout_constraintTop_toBottomOf="@+id/info"
             app:layout_constraintVertical_bias="0.31" />
 
         <Button
-            android:id="@+id/login"
+            android:id="@+id/cancel"
             android:layout_width="273dp"
             android:layout_height="52dp"
-            android:onClick="login"
-            android:text="@string/loginpage"
+            android:onClick="cancel"
+            android:text="@string/m_gse"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/register" />
+            app:layout_constraintTop_toBottomOf="@+id/update" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
